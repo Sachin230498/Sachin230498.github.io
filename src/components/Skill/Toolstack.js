@@ -1,6 +1,6 @@
 import React from "react";
-import { SiVisualstudiocode, SiPostman, SiHeroku, SiNetlify } from "react-icons/si";
-import { IoLogoVercel } from "react-icons/io5";
+import { SiVisualstudiocode, SiPostman, SiNetlify } from "react-icons/si";
+
 import { DiGit } from "react-icons/di";
 import { AiFillCodepenCircle, AiFillCodeSandboxSquare, AiFillGithub } from "react-icons/ai"
 function Toolstack() {
@@ -15,12 +15,7 @@ function Toolstack() {
       <div className="tech-icons">
         <SiPostman /><p>Postman</p>
       </div>
-      {/* <div className="tech-icons">
-        <SiHeroku /><p>Heroku</p>
-      </div> */}
-      {/* <div className="tech-icons">
-        <IoLogoVercel /><p>Vercel</p>
-      </div> */}
+    
       <div className="tech-icons">
         <SiNetlify /><p>Netlify</p>
       </div>

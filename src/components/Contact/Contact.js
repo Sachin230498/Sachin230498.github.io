@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 // import Particle from "../Particle";
-import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 import { IoCall } from "react-icons/io5";
@@ -97,25 +97,7 @@ function Contact() {
                   <span style={{ opacity: 0 }}>||</span>
                 </a>
               </li>
-              {/* <li className="social-icons-contect fourth">
-                <a
-                  href="https://twitter.com/Saurabh162000"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-                <a
-                  className="link-text-css"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://twitter.com/Saurabh162000"
-                >
-                  twitter.com/Saurabh162000
-                  <span style={{ opacity: 0 }}>||</span>
-                </a>
-              </li> */}
+            
               <li className="social-icons-contect sixth">
                 <Message show={message} onHide={() => setMessage(false)} />
                 <span

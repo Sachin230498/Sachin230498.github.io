@@ -12,8 +12,10 @@ const ContectLogo = () => {
   return (
     <>
       <span>
+
         <ul className="home-about-social-linksTwo">
-          <li className="social-iconsTwo">
+         
+          <li  className="social-iconsTwo">
             <a
               href="https://github.com/SachinMasai"
               target="_blank"
@@ -23,6 +25,7 @@ const ContectLogo = () => {
               <AiFillGithub />
             </a>
           </li>
+
           <li className="social-iconsTwo">
             <a
               href="https://www.linkedin.com/in/sachin-pathe-2a2b231a0/"
