@@ -1,7 +1,7 @@
 import React from "react";
 import Particles from "react-particles-js";
 
-function Particle() {
+function Particle2() {
   return (
     <Particles
       params={{
@@ -32,7 +32,7 @@ function Particle() {
             },
           },
           opacity: {
-            value: 0.4,
+            value: 0.8,
             random: false,
             anim: {
               enable: true,
@@ -118,4 +118,4 @@ function Particle() {
   );
 }
 
-export default Particle;
+export default Particle2;
