@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.73807778.css",
-    "main.js": "/static/js/main.a9d6a026.js",
-    "static/js/787.9d973d7f.chunk.js": "/static/js/787.9d973d7f.chunk.js",
+    "main.css": "/static/css/main.daac196a.css",
+    "main.js": "/static/js/main.3f023951.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/movie.png": "/static/media/movie.29eaab2d84df60034eda.png",
     "static/media/greenhouse.png": "/static/media/greenhouse.71652550b465bd5e3cfd.png",
     "static/media/toggletrack.png": "/static/media/toggletrack.8e098145cec64f843c08.png",
-    "static/media/ludo.png": "/static/media/ludo.555d47cf6de7003e825b.png",
-    "static/media/Profile.jpg": "/static/media/Profile.101431eec763b6ed3ace.jpg",
-    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/home-main.svg": "/static/media/home-main.81ac9fb523ae8856a24137009c967534.svg",
-    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
+    "static/media/mail.jpg": "/static/media/mail.6a7cd9d34a24e151d730.jpg",
+    "static/media/Sachin-Pathe-Resume.pdf": "/static/media/Sachin-Pathe-Resume.378460074b218f232eac.pdf",
+    "static/media/noBroker.png": "/static/media/noBroker.f92d567765f534d114a4.png",
+    "static/media/profile.jpg": "/static/media/profile.101431eec763b6ed3ace.jpg",
+    "static/media/sp.png": "/static/media/sp.caa69f114b326a560bec.png",
+    "static/media/call.jpg": "/static/media/call.d069256e31c2fde327b8.jpg",
+    "static/media/skill-bg.svg": "/static/media/skill-bg.bd25574a16184db5c88d.svg",
+    "static/media/contact-bg.svg": "/static/media/contact-bg.6a30e6b652a50201770d.svg",
+    "static/media/pre.svg": "/static/media/pre.73d9eb10eb9af6f85ea3.svg",
+    "static/media/about-bg.svg": "/static/media/about-bg.fc32ab7c501be4f13773.svg",
     "index.html": "/index.html",
-    "main.73807778.css.map": "/static/css/main.73807778.css.map",
-    "main.a9d6a026.js.map": "/static/js/main.a9d6a026.js.map",
-    "787.9d973d7f.chunk.js.map": "/static/js/787.9d973d7f.chunk.js.map"
+    "main.daac196a.css.map": "/static/css/main.daac196a.css.map",
+    "main.3f023951.js.map": "/static/js/main.3f023951.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73807778.css",
-    "static/js/main.a9d6a026.js"
+    "static/css/main.daac196a.css",
+    "static/js/main.3f023951.js"
   ]
 }
