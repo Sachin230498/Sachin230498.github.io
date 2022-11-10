@@ -11,8 +11,13 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
+
 import ScrollToTop from "./components/ScrollToTop";
 import Skill from "./components/Skill/Skill";
+import { Stats } from "./components/Github/Stats";
+import { Calendar } from "./components/Github/Calender";
+
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -35,6 +40,8 @@ function App() {
         <About />
         <Skill />
         <Projects />
+        <Calendar/>
+        <Stats/>
         <Resume />
         <Contact />
 

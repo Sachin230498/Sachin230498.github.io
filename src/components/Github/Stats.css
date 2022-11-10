@@ -1,0 +1,109 @@
+.statsBox{
+    display: block;
+    text-align: center;
+
+    padding-top: 5%;
+}
+
+.statsBox > h3{
+    font-size: 20px;
+    /* border: 3px solid black; */
+    width: fit-content;
+    margin: auto;
+    border-radius: 7px;
+    background-color: rgb(44, 94, 194);
+    color: white;
+    margin-bottom: 1%;
+    padding: 4px;
+}
+
+.statsContainer{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.stats-2{
+    display: block;
+}
+
+.stats-2  img{
+    width: 70%;
+    margin: auto;
+}
+
+.stats-3{
+    display: block;
+}
+
+.stats-3  img{
+    width: 20%;
+    margin: auto;
+}
+
+@media all and (min-width: 481px) and (max-width: 768px){
+
+    .statsContainer{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .statsContainer > div a img{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .statsBox > h3{
+        font-size: 15px;
+        margin-bottom: 5%;
+        border: 1px solid rgb(22, 4, 61);
+    }
+        
+    .stats-3{
+        display: block;
+        padding-top: 3%;
+    }
+
+    .stats-3  img{
+        width: 40%;
+        margin: auto;
+    }
+}
+
+
+@media all and (min-width: 250px) and (max-width: 480px){
+    .statsContainer{
+        display: block;
+        width: 90%;
+        margin: auto;
+        justify-content: center;
+    }
+        
+    .stats-2  img{
+        width: 95%;
+        margin: auto;
+    }
+
+    .statsContainer > div a img{
+        width: 100%;
+    }
+    
+    .statsBox > h3{
+        font-size: 13px;
+        margin-bottom: 5%;
+        border: 1px solid rgb(22, 4, 61);
+    }
+    .stats-3{
+        display: block;
+        margin-top: 5%;
+    }
+    .stats-3  img{
+        width: 60%;
+        margin: auto;
+        margin-top: 5%;
+    }
+    
+}
