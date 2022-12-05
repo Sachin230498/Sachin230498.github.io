@@ -20,7 +20,7 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
         <Card.Text>
-          <b style={{ letterSpacing: "1.5px" }}> Built Using :- </b> <span> {props.tool} </span>
+          <b style={{ letterSpacing: "1.5px" }}> Tech Stack :- </b> <span> {props.tool} </span>
         </Card.Text>
         <Button variant="primary" style={{ margin: "15px" }} href={props.link} target="_blank">
           <BiGitRepoForked /> &nbsp;

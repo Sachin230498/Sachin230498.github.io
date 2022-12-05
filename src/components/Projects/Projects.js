@@ -1,12 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-// import Particle2 from "../Particle2";
-
-
-import GreenHouse from "../../Assets/Projects/greenhouse.png";
-import movie from "../../Assets/Projects/movie.png";
- import Toggle from "../../Assets/Projects/toggletrack.png";
+import relience from "../../Assets/Projects/relience.png";
+import toggle from "../../Assets/Projects/toggletrack.png";
+ import basket from "../../Assets/Projects/bigbasket.png";
+ import movie from "../../Assets/Projects/toggletrack.png";
+ import resta from "../../Assets/Projects/resta.png";
 // import meanBuy from "../../Assets/Projects/meanBuy.png";
 // import countryDetails from "../../Assets/Projects/countryDetails.png";
 // import fitnessClub from "../../Assets/Projects/fitnessClub.png";
@@ -28,13 +27,13 @@ function Projects() {
             {/* Toggle-Track Clone -------------------------------------------------------------------*/}
             <Col md={6} className="project-card">
               <ProjectCard
-                imgPath={Toggle}
+                imgPath={basket}
                 isBlog={false}
-                title="Toggle-Track Clone"
+                title="Big-basket Clone"
                 tool=" React,Chakra-Ui, JavaScript, HTML, CSS"
-                description="This is a clone of a task management website called GreenHouse.io."
-                link="https://github.com/SachinMasai/coherent-laborer-2044"
-                demoLink="https://famous-cucurucho-980351.netlify.app/"
+                description="Big-Basket is a E-Commerce website where you can buy grocery product"
+                link="https://github.com/SachinMasai/bigbasket"
+                demoLink="https://magenta-pavlova-41c54f.netlify.app/"
               />
             </Col>
 
@@ -42,18 +41,44 @@ function Projects() {
             {/* greenhouse Clone -------------------------------------------------------------------*/}
             <Col md={6} className="project-card">
               <ProjectCard
-                imgPath={GreenHouse}
+                imgPath={relience}
                 isBlog={false}
-                title="Greenhouse.io"
-                tool="  JavaScript, HTML, CSS"
-                description="This is a clone of website called GreenHouse.io. Greenhouse) is an American technology company headquartered in New York City that provides a recruiting software as a service. It was founded in 2012 by Daniel Chait and Jon Stross."
-                link="https://github.com/SachinMasai/freezing-value-6715"
-                demoLink="https://heartfelt-babka-9adac1.netlify.app/"
+                title="Reliance Digital Clone"
+                tool= "React,Redux,ChakraUi,JavaScript, CSS"
+                description="Reliance Digital is an Indian consumer electronics retailer. It is a subsidiary of Reliance Retail, a wholly owned subsidiary of Reliance Industries."
+                link="https://github.com/SachinMasai/E-Commerce.com"
+                demoLink="https://e-commerce-com.vercel.app/"
               />
             </Col>
 
             {/* movie 2.0 ------------------------------------------------------------- */}
             <Col md={6} className="project-card">
+              <ProjectCard
+                imgPath={toggle}
+                isBlog={false}
+                title="Toggle Track Clone"
+                tool="  React,JavaScript,API,Local-Storage HTML, CSS"
+                description="Toggl Track (formerly Toggl) is a time tracking software operated by Toggl OÜ, that offers online time tracking and reporting services through their website along with mobile and desktop applications."
+                link="https://github.com/SachinMasai/coherent-laborer-2044"
+                demoLink="https://famous-cucurucho-980351.netlify.app/"
+              />
+            </Col>
+
+                {/* movie 2.0 ------------------------------------------------------------- */}
+                <Col md={6} className="project-card">
+              <ProjectCard
+                imgPath={resta}
+                isBlog={false}
+                title="Restaurant Menu"
+                tool="React,JavaScript,HTML, CSS"
+                description="This is A simple Restaurant menu with the help of simple react. It fully responsive website "
+                link="https://github.com/SachinMasai/Restaurent-App-Basic"
+                demoLink="https://cerulean-choux-c86f18.netlify.app/"
+              />
+            </Col>
+
+                  {/* movie 2.0 ------------------------------------------------------------- */}
+                  <Col md={6} className="project-card">
               <ProjectCard
                 imgPath={movie}
                 isBlog={false}
