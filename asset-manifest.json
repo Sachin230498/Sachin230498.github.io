@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.21c0cb19.css",
-    "main.js": "/static/js/main.a465163f.js",
+    "main.js": "/static/js/main.1befdb35.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/movie.png": "/static/media/movie.29eaab2d84df60034eda.png",
-    "static/media/greenhouse.png": "/static/media/greenhouse.71652550b465bd5e3cfd.png",
+    "static/media/relience.png": "/static/media/relience.98027903962f787f0dd6.png",
+    "static/media/bigbasket.png": "/static/media/bigbasket.fc5e4491a4d86d1d0e6c.png",
+    "static/media/resta.png": "/static/media/resta.dddde34956cf474e028c.png",
     "static/media/toggletrack.png": "/static/media/toggletrack.8e098145cec64f843c08.png",
     "static/media/mail.jpg": "/static/media/mail.6a7cd9d34a24e151d730.jpg",
     "static/media/Sachin-Pathe-Resume.pdf": "/static/media/Sachin-Pathe-Resume.378460074b218f232eac.pdf",
@@ -17,11 +18,11 @@
     "static/media/about-bg.svg": "/static/media/about-bg.fc32ab7c501be4f13773.svg",
     "index.html": "/index.html",
     "main.21c0cb19.css.map": "/static/css/main.21c0cb19.css.map",
-    "main.a465163f.js.map": "/static/js/main.a465163f.js.map",
+    "main.1befdb35.js.map": "/static/js/main.1befdb35.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.21c0cb19.css",
-    "static/js/main.a465163f.js"
+    "static/js/main.1befdb35.js"
   ]
 }
