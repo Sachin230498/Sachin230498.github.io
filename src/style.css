@@ -61,18 +61,16 @@ html {
   width: 7px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #0095ff;
 }
 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
   background: #0b0952;
   border-radius: 12px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(54, 2, 0, 0.911);
   border-radius: 12px;
@@ -168,6 +166,7 @@ html {
 
 .logo {
   height: 2.5em !important;
+  margin-right: 150px;
   position: relative;
   bottom: 5px;
 }
@@ -206,10 +205,10 @@ html {
   display: block;
   height: 5px;
   width: 0;
-  border-radius: 16px;
-  background: #0095ff;
+  border-radius: 6px;
+  background: rgb(144, 60, 144);
   bottom: 1px;
-  left: 0;
+  left: -10;
   z-index: -1;
   transition: all 0.3s ease-out 0s;
 }
@@ -221,6 +220,8 @@ html {
 /* --------- */
 /* Home section */
 /* --------- */
+
+
 .wave {
   animation-name: wave-animation;
   /* Refers to the name of your @keyframes element below */
@@ -269,25 +270,19 @@ html {
   }
 }
 
-#tsparticles {
+/* #tsparticles {
   position: fixed !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   width: 100%;
   height: 100%;
-}
+} */
 
 .home-header {
   padding-top: 40px !important;
 }
 
 .home-section {
-  /* position: relative; */
-  /* z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/about-bg.svg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover; */
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
@@ -319,14 +314,14 @@ html {
 }
 
 .Typewriter__wrapper {
-  font-size: 2.2em !important;
+  font-size: 1.5em !important;
   color: #0095ff !important;
   font-weight: 600 !important;
 }
 
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #0095ff !important;
+  color: #429ad8 !important;
 }
 
 @media (max-width: 767px) {
@@ -341,54 +336,6 @@ html {
   }
 }
 
-/* .about-background {
-  position: relative;
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/about-bg.svg);
-  background-position: top center;
-  background-attachment: fixed;
-} */
-
-
-/* .Skill-background {
-  position: relative;
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/about-bg.svg);
-  background-position: top center;
-  background-attachment: fixed;
-} */
-
-/* .project-background {
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/project-bg.svg);
-  background-position: top center;
-  background-attachment: fixed;
-} */
-
-/* .resume-background {
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/resume-bg.svg);
-  background-position: top center;
-  background-attachment: fixed;
-} */
-
-/* .blog-background {
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/blog-bg.svg);
-  background-position: top center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
-/* .contact-background {
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/contact-bg.svg);
-  background-position: top center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 
 .home-about-section {
   position: relative !important;
@@ -741,7 +688,6 @@ html {
 
 .project-card-view {
   border: 4px solid rgba(255, 0, 170, 0.459) !important;
-  box-shadow: 2px 2px 0px 2px rgba(255, 255, 255, 0.781) !important;
   border-radius: 40px !important;
   color: white !important;
   background-color: transparent !important;
@@ -761,19 +707,19 @@ html {
 .project-github-icon {
   font-size: 2.5em;
   border-radius: 50%;
-  background-color: rgb(71, 0, 56);
+  background-color: rgb(16, 2, 13);
 }
 
 .project-built-icon {
   font-size: 2em;
   border-radius: 50%;
-  background-color: rgb(71, 0, 56);
+  background-color: rgb(195, 180, 192);
 }
 
 .project-github-icon:hover {
   padding: 2px;
-  background-color: white;
-  box-shadow: 0px 0px 15px rgb(0, 204, 255);
+  background-color: rgb(249, 245, 245);
+  box-shadow: 0px 0px 15px rgb(151, 167, 171);
 }
 
 @media (max-width: 767px) {
@@ -787,70 +733,13 @@ html {
 }
 
 .project-card-view:hover {
-  transform: scale(1.02) !important;
+  transform: scale(1.02) ;
   overflow: hidden !important;
+   background-color: rgb(249, 245, 245);
+  box-shadow: 0px 0px 15px rgb(151, 167, 171);
   border: 4px solid rgb(0, 204, 255) !important;
 }
 
-.blog-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  height: auto !important;
-}
-
-.blog-card-view {
-  background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(192, 35, 140, 0.459) !important;
-  color: white !important;
-  transition: all 0.5s ease 0s !important;
-  height: 100% !important;
-}
-
-.blog-link {
-  color: white !important;
-  text-decoration: none !important;
-}
-
-.blog-link:hover {
-  cursor: pointer !important;
-}
-
-.blog-card-view:hover {
-  transform: scale(1.02) !important;
-  overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(192, 35, 140, 0.459) !important;
-}
-
-.card-img-top {
-  padding: 20px !important;
-  opacity: 0.8 !important;
-  border-radius: 10px !important;
-}
-
-.blog-img {
-  padding: 0px !important;
-  opacity: 0.8 !important;
-  border-radius: 0px !important;
-}
-
-.btn-primary {
-  color: #fff !important;
-  background-color: #004f88 !important;
-  border-color: #004272 !important;
-}
-
-.btn-primary:hover {
-  color: #fff !important;
-  background-color: #0095ffd7 !important;
-  border-color: #0095ffd7 !important;
-}
-
-.btn:focus {
-  outline: none !important;
-  box-shadow: none !important;
-}
 
 .project-heading {
   color: white !important;
@@ -940,8 +829,8 @@ html {
   width: 50%;
   height: 100%;
   background: -webkit-linear-gradient(left,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 0.3) 100%);
+      rgba(224, 17, 17, 0) 0%,
+      rgba(165, 33, 33, 0.3) 100%);
   background: linear-gradient(to right,
       rgba(255, 255, 255, 0) 0%,
       rgba(255, 255, 255, 0.3) 100%);
@@ -956,7 +845,7 @@ html {
 
 @-webkit-keyframes shine {
   100% {
-    left: 125%;
+    left: 150%;
   }
 }
 
@@ -968,9 +857,9 @@ html {
 
 
 .tech-icons:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
-  border: 3px solid rgba(0, 195, 255, 0.589) !important;
+  transform: scale(1.05) ;
+  overflow: hidden ;
+  border: 3px solid rgba(252, 249, 247, 0.589) !important;
 }
 
 .tech-icon-images {
@@ -1132,27 +1021,6 @@ html {
   }
 }
 
-/* .fork-btn {
-  font-size: 1.1em !important;
-  padding-top: 10px !important;
-}
-
-.fork-btn-inner {
-  line-height: 1.4em !important;
-  background-color: #0095ff5e !important;
-  padding: 0.25rem 1.1rem !important;
-  vertical-align: middle !important;
-  text-align: center !important;
-}
-
-.fork-btn-inner:hover {
-  transform: translateY(-2px) !important;
-  background-color: #0095ff86 !important;
-  border-color: #0095ff86 !important;
-}
-.fork-btn-inner::after {
-  display: none !important;
-} */
 
 @keyframes fadeInUp {
   from {
@@ -1202,21 +1070,6 @@ html {
   animation: fadeInUp 1s ease-in-out 0s forwards;
 }
 
-.first-blog {
-  animation-delay: 0.5s;
-}
-
-.second-blog {
-  animation-delay: 1s;
-}
-
-.third-blog {
-  animation-delay: 1.5s;
-}
-
-.fourth-blog {
-  animation-delay: 2s;
-}
 
 /* .fifth {
   animation-delay: 1.2s;

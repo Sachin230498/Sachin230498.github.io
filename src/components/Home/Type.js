@@ -5,11 +5,11 @@ function Type() {
   return (
     <Typewriter
       options={{
-        strings: ["I Love To Code...", 
-        "What's Your Superpower..."],
+        strings: ["The technology you use impresses no one. The experience you create with it is everything...", 
+        "Technology is best when it brings people together..","You can connect with me there..."],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 60,
       }}
     />
   );

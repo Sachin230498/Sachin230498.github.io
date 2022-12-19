@@ -30,8 +30,8 @@ export const Calendar = () => {
                 <div className="calendarBox">
                     <h3>GitHub Calender</h3>
                     <GitHubCalendar
-                        username="lokesh-patidar"
-                        color="yellow"
+                        username="subhankarroy612"
+                        color="#00FF00"
                         transformData={selectLastHalfYear}
                         hideTotalCount
                         hideColorLegend
@@ -52,14 +52,6 @@ export const Calendar = () => {
                 </p>
             </div>
 
-            <div className="graph">
-            <p align="center">
-                <a href="https://github.com/SachinMasai/github-readme-activity-graph">
-                    <img alt="lokesh-patidar Activity Graph"
-                        src="https://activity-graph.herokuapp.com/graph?username=SachinMasai&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
-                </a>
-                </p>
-            </div>
             <hr id="projectsPageSection" />
         </div>
     );
