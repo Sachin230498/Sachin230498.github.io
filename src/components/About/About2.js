@@ -26,9 +26,7 @@ function About2() {
                                 I enjoy taking challenges and giving my best. 
                                 My interest lies in problem-solving and software development. 
                                 I am a constant learner and I like interacting with people. 
-                                I spend my whole day, practically every day, 
-                                experimenting with HTML, CSS, and modern Javascript libraries like React, 
-                                and Redux. I build websites that are delightful and informative.
+                       
                             </span>
                             <br />
                             <br />
