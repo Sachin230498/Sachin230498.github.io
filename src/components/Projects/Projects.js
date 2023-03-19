@@ -5,7 +5,7 @@ import relience from "../../Assets/Projects/relience.png";
 import toggle from "../../Assets/Projects/zara.png";
  import basket from "../../Assets/Projects/bigbasket.png";
  import movie from "../../Assets/Projects/whether.png";
- import resta from "../../Assets/Projects/resta.png";
+ import chat from "../../Assets/Projects/ss1.jpeg";
 // import meanBuy from "../../Assets/Projects/meanBuy.png";
 // import countryDetails from "../../Assets/Projects/countryDetails.png";
 // import fitnessClub from "../../Assets/Projects/fitnessClub.png";
@@ -67,13 +67,13 @@ function Projects() {
                 {/* movie 2.0 ------------------------------------------------------------- */}
                 <Col md={6} className="project-card">
               <ProjectCard
-                imgPath={resta}
+                imgPath={chat}
                 isBlog={false}
-                title="Restaurant Menu"
-                tool="React,JavaScript,HTML, CSS"
-                description="This is A simple Restaurant menu with the help of simple react. It fully responsive website "
-                link="https://github.com/SachinMasai/Restaurent-App-Basic"
-                demoLink="https://cerulean-choux-c86f18.netlify.app/"
+                title="CHAT-APP"
+                tool="React,JavaScript,HTML, CSS, Socket,WebSocket,WebVital,NodeJS,Node-Server,"
+                description="This is A simple Chatting App with the help of simple react and NodeJS. It fully responsive website "
+                link="https://github.com/SachinMasai/Chat-App"
+                demoLink="https://chat-app-rose-psi.vercel.app/"
               />
             </Col>
 
