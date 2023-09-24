@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6ef75ff7.css",
-    "main.js": "/static/js/main.4916ce75.js",
+    "main.js": "/static/js/main.a21fb41e.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/relience.gif": "/static/media/relience.eed4b454956af461ab19.gif",
     "static/media/zara.png": "/static/media/zara.71c90c2b60fee2f43c10.png",
@@ -18,11 +18,11 @@
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
     "main.6ef75ff7.css.map": "/static/css/main.6ef75ff7.css.map",
-    "main.4916ce75.js.map": "/static/js/main.4916ce75.js.map",
+    "main.a21fb41e.js.map": "/static/js/main.a21fb41e.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ef75ff7.css",
-    "static/js/main.4916ce75.js"
+    "static/js/main.a21fb41e.js"
   ]
 }
