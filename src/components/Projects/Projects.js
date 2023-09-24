@@ -85,7 +85,7 @@ function Projects() {
               description="Its my porfolio website ,here you can visit and see my
                education ,project and you can download my CV also. Thank You"
               ghLink="https://github.com/Sachin230498/SachinMasai.github.io"
-              demoLink="https://sachinmasai.github.io/"
+              demoLink="https://sachin230498.github.io/"
             />
           </Col>
 

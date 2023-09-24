@@ -329,6 +329,7 @@ button:focus {
     font-weight: 500 !important;
    
   }
+  
 
 }
 
@@ -341,6 +342,8 @@ button:focus {
   .Typewriter__cursor {
     display: none !important;
   }
+  
+
 }
 
 .myAvtar {
@@ -357,6 +360,18 @@ button:focus {
   .myAvtar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
+  }
+  .Call{
+    
+    font-size: small;
+    color: "#b562d6 !important";
+    
+  }
+  .Callm{
+    
+    font-size: x-small;
+    color: "#b562d6 !important";
+    
   }
 }
 

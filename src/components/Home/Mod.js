@@ -23,10 +23,10 @@ const MyModal = (props) => {
             {" Mail me at "}
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="Home-Mail-Call">
-          <p style={{ fontSize: "2.5em",fontWeight:"bold", color: "#b562d6 !important" }}>
+        <Modal.Body className="Callm">
+          <p className="Call" style={{ fontSize: "2.5em",fontWeight:"bold", color: "#b562d6 !important" }}>
             <span style={{ opacity: "0" }}>-----</span>
-            {"sachinpathe230498@gmail.com"}
+            {"sachinpathe123b1@gmail.com"}
           </p>
         </Modal.Body>
       </Modal>
