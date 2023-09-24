@@ -122,7 +122,7 @@ function Home2() {
 
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/sachin-pathe-590051278/"
+                  href="https://www.linkedin.com/in/sachin-pathe-59005127/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
