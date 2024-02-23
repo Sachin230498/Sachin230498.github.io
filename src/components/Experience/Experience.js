@@ -103,7 +103,7 @@ function Projects() {
               title="Self-Employed MERN Stack Trainer"
               time="February 2023 - January 2024"
               City="Remote Work (Self Employed)"
-              description="From February 2023 to January 2024, I independently trained and mentored 15 individuals in the MERN stack – MongoDB, Express.js, React.js, Node.js. Through tailored instruction and hands-on projects, participants gained proficiency in full-stack web development, culminating in a diverse portfolio showcasing their skills. It was immensely rewarding to witness their growth and contributions to the tech community."
+              description=" I independently trained and mentored 15-20 individuals in the MERN stack – MongoDB, Express.js, React.js, Node.js. Through tailored instruction and hands-on projects, participants gained proficiency in full-stack web development, culminating in a diverse portfolio showcasing their skills. It was immensely rewarding to witness their growth and contributions to the tech community."
               bgColor="#2c3e50"
             />
           </Col>
