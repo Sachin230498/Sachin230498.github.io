@@ -6,7 +6,7 @@ const Callme = (props) => {
     <>
       <Modal
         {...props}
-        size="sm"
+        size="lg"
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
@@ -17,14 +17,20 @@ const Callme = (props) => {
         >
           <Modal.Title
             id="contained-modal-title-vcenter"
-            style={{ fontSize: ".7em",color: "#b562d6 !important" }}
+            style={{ fontSize: ".7em", color: "#b562d6 !important" }}
           >
             <span style={{ opacity: "0" }}>---------</span>
             {" Call me at "}
           </Modal.Title>
         </Modal.Header>
         <Modal.Body className="Call">
-          <p  style={{ fontSize: "2.5em",fontWeight:"bold",color: "#b562d6 !important"  }}>
+          <p
+            style={{
+              fontSize: "2.5em",
+              fontWeight: "bold",
+              color: "#b562d6 !important",
+            }}
+          >
             <span style={{ opacity: "0" }}>------------</span>
             {"+91 9 6 9 1 7 3 9 3 5 5 "}
           </p>
