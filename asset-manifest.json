@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6ef75ff7.css",
-    "main.js": "/static/js/main.093efb95.js",
+    "main.js": "/static/js/main.2588a95d.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/relience.gif": "/static/media/relience.eed4b454956af461ab19.gif",
     "static/media/zara.png": "/static/media/zara.71c90c2b60fee2f43c10.png",
@@ -11,18 +11,17 @@
     "static/media/chw.png": "/static/media/chw.797df5a58272ca0c194f.png",
     "static/media/ss1.jpeg": "/static/media/ss1.5d82ef6ec6ab93b73bd6.jpeg",
     "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
-    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/Sachin_Resume.pdf": "/static/media/Sachin_Resume.2ef26c7b4b0bcb8a9a93.pdf",
+    "static/media/Sachin_Resume.pdf": "/static/media/Sachin_Resume.6953a309bc67d3a70ea4.pdf",
     "static/media/logo.jpg": "/static/media/logo.210d2fe07e1e954a18d6.jpg",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
     "main.6ef75ff7.css.map": "/static/css/main.6ef75ff7.css.map",
-    "main.093efb95.js.map": "/static/js/main.093efb95.js.map",
+    "main.2588a95d.js.map": "/static/js/main.2588a95d.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ef75ff7.css",
-    "static/js/main.093efb95.js"
+    "static/js/main.2588a95d.js"
   ]
 }
